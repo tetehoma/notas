@@ -51,12 +51,15 @@ void menu(List<String> notas){
     case "1":
     adicionarNota(notas);
     menu(notas);
+    break;
 
     case "2":
     listarNotas(notas);
     menu(notas);
+    break;
 
     case "3": 
-    print("Até breve!");     
+    print("Até breve!"); 
+    break;    
   }
 }
